@@ -15,9 +15,15 @@ void printArray(int* a, int length) {
     printf("\n");
 }
 
+void createFault() {
+    int* num = 1;
+    printf("%d\n", *num);
+}
+
 int main(int argc, char* argv[]) {
     int a[] = {1, 2, 3, 4, 5};        
     int length = sizeof(a)/sizeof(a[0]);
     mix(a, length);
     printArray(a, length);
+    createFault();
 }
