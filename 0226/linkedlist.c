@@ -5,6 +5,11 @@ struct node {
     struct node* next;
 }
 
+// 02/25 exit ticket
+void printLinkedList(node* head) {
+    //TODO: print the values in the linked list, e.g. 0->1->2
+}
+
 int main(int argc, char* argv[]) {
     struct node* head = NULL;
 
