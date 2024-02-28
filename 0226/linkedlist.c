@@ -3,9 +3,9 @@
 struct node {
     int value;
     struct node* next;
-}
+};
 
-// 02/26 exit ticket
+// 02/28 exit ticket
 void printLinkedList(node* head) {
     //TODO: print the values in the linked list, e.g. 0->1->2
 }
@@ -13,7 +13,7 @@ void printLinkedList(node* head) {
 int main(int argc, char* argv[]) {
     struct node* head = NULL;
 
-    head = malloc(sizeof(node);
+    head = malloc(sizeof(node));
     head->value = 1; 
     head->next = NULL;    
 
