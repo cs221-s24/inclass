@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/* TODO: use gdb to debug this code to complete selectionsort */
+
 void selectionSort(int* nums, int length) {
     for (int i=0; i<length-1; i++) {
         int minIndex = i; 
