@@ -10,8 +10,8 @@ void printList(int* list, int length) {
 }
 
 int main(int argc, char* argv[]) {
-	int nums[] = {1, 2, 3, 4, 5};
-	int* nums2 = (int*) malloc(sizeof(int)*5);
+    int nums[] = {1, 2, 3, 4, 5};
+    int* nums2 = (int*) malloc(sizeof(int)*5);
     memset(nums2, 0, sizeof(int)*5);
     for (int i=0; i<5; i++) {
     	nums2[i] = i+1;
